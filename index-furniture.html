@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Royal Furniture</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f7f5f2;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      url('https://images.unsplash.com/photo-1615874959474-d609969a20ed');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 90px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 50px;
+      margin-bottom: 10px;
+    }
+    nav {
+      background: #5a3e2b;
+      padding: 12px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 18px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background: white;
+      border-radius: 14px;
+      padding: 20px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+      text-align: center;
+    }
+    .card h3 {
+      color: #5a3e2b;
+    }
+    .contact {
+      background: #ede4da;
+      border-radius: 14px;
+      padding: 30px;
+    }
+    footer {
+      background: #5a3e2b;
+      color: white;
+      text-align: center;
+      padding: 18px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Royal Furniture</h1>
+  <p>Comfort • Quality • Style</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#products">Products</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    Welcome to <b>Royal Furniture</b>. We provide premium quality furniture 
+    for homes, offices, and shops with modern and classic designs.
+  </p>
+</section>
+
+<section id="products">
+  <h2>Our Products</h2>
+  <div class="products">
+    <div class="card">
+      <h3>Sofa Set</h3>
+      <p>Comfortable and stylish sofa collections.</p>
+    </div>
+    <div class="card">
+      <h3>Bed</h3>
+      <p>Strong wooden beds for peaceful sleep.</p>
+    </div>
+    <div class="card">
+      <h3>Dining Table</h3>
+      <p>Elegant dining tables for family meals.</p>
+    </div>
+    <div class="card">
+      <h3>Office Furniture</h3>
+      <p>Modern office chairs and tables.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="contact">
+    <p><b>📍 Address:</b> Main Road, Your City</p>
+    <p><b>📞 Phone:</b> 9XXXXXXXXX</p>
+    <p><b>⏰ Timing:</b> 9 AM – 8 PM</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Royal Furniture | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
